@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+/* TAG USAGE */
+
+body{
+    background: #1B2029;
+    color: white;
+    font-weight: 500;
+    display: flex;
+    min-height: 100vh;
+    min-width: 100vw;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+label{
+    color: white;
+    font-weight: 500;
+    font-family: Poppins, sans-serif;
+    display: block;
+    margin-bottom: 0.7em;
+}
+
+input{
+    background-color: #161923;
+    border-radius: 8px;
+    border: 1px solid black;
+    height: 3em;
+    width: 22em;
+    margin-bottom: 2em;
+    color: white;
+    font-family: Poppins, sans-serif;
+}
+
+span{
+    font-size: 1.1rem;
+    font-weight: 400;   
+    position: relative;
+
+}
+
+span::before{
+    position: absolute;
+    content: '';
+    height: 1px;
+    width: 100px;
+    right: 50px;
+    background: rgba(255, 255, 255, 0.3);
+    bottom: 50%;
+}
+
+span::after{
+    position: absolute;
+    content: '';
+    height: 1px;
+    width: 100px;
+    left: 50px;
+    background: rgba(255, 255, 255, 0.3);
+    bottom: 50%;
+}
+
+/* CLASS USAGE */
+
+.account{
+    color: #8077e6;
+    font-weight: 600;
+    font-size: 3em;
+    margin: 2em auto auto 3em;
+    font-family: Poppins, sans-serif;
+}
+
+.images{
+    display: inline-block;
+    position: relative;
+    left: 14rem;
+    margin-top: 3rem;
+}
+
+.ball{
+    border: 50px solid #8077e6;
+    border-radius: 100%;
+    width: 600px;
+    height: 600px;
+    background-color: #8077e6;
+    position: absolute;
+    top: 15%;
+    right: 10px;
+}
+
+.alternative{
+    margin-top: 1rem;
+    margin-left: 61.5%;
+    margin-bottom: 1rem;
+    display: block;
+
+}
+
+.or-name{
+    color: #60636a;
+    font-family: Poppins, sans-serif;
+    font-weight: 500;
+}
+
+.formulario{
+    position: relative;
+    left: 12rem;
+    font-size: 18px;
+    display: inline-block;
+}
+
+.btn {
+    position: relative;
+    left: 5.7rem;
+    margin-top: 1.5rem;
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Poppins, sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    background: #6c61f6;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    width: 8rem;
+  }
+  
+  .btn:hover {
+    background: #6c61f6;
+    cursor:pointer;
+    background-image: -webkit-linear-gradient(top, #6c61f6, #4740a6);
+    background-image: -moz-linear-gradient(top, #6c61f6, #4740a6);
+    background-image: -ms-linear-gradient(top, #6c61f6, #4740a6);
+    background-image: -o-linear-gradient(top, #6c61f6, #4740a6);
+    background-image: linear-gradient(to bottom, #6c61f6, #4740a6);
+    text-decoration: none;
+  }
+
+.imagem-mulher{
+      position: absolute;
+      right: 5rem;
+      top: 12rem;
+}
+
+/* ID USAGE */
+
+#google-img{
+    width: 35px;
+    margin-right: 3.5rem;
+}
+
+#facebook-img{
+    width: 35px;
+    margin-right: 3.5rem;
+}
+
+#linkedin-img{
+    width: 35px;
+}
+
+#password{
+    display: block;
+}
+
+#hr1{
+    display: inline-block;
+    margin-right: 5%;
+}
+
